@@ -1,0 +1,7 @@
+{
+  "owner": "geekyeggo",
+  "name": "delete-artifact",
+  "visibility": "internal",
+  "description": "Delete artifacts created within the workflow run.",
+  "block_publish": false
+}
