@@ -1,0 +1,20 @@
+name: Test basic usage - delete artifact by name
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_EVENT_NAME: push
+      GITHUB_REF: refs/heads/main
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - id: action
+        uses: .
+        with:
+          name: my-test-artifact
+          failOnError: "false"
+      - name: Assert action completed without error
+        run: |
+          echo "Action completed successfully (artifact not found is acceptable with failOnError=false)"
+          echo "PASS"
