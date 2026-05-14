@@ -10,6 +10,7 @@ Hardened by [Chainguard](https://www.chainguard.dev) from the upstream action at
 |---------|-----|-----------------|
 | v4.0.0 | [`v4.0.0`](https://github.com/chainguard-actions/delete-artifact/tree/v4.0.0) | — |
 | v4.1.0 | [`v4.1.0`](https://github.com/chainguard-actions/delete-artifact/tree/v4.1.0) | — |
+| v5.0.0 | [`v5.0.0`](https://github.com/chainguard-actions/delete-artifact/tree/v5.0.0) | — |
 | v5.1.0 | [`v5.1.0`](https://github.com/chainguard-actions/delete-artifact/tree/v5.1.0) | — |
 | v6.0.0 | [`v6.0.0`](https://github.com/chainguard-actions/delete-artifact/tree/v6.0.0) | — |
 
